@@ -1,0 +1,1 @@
+export const images = ["https://res.cloudinary.com/mobinet/image/upload/v1692169596/spacefi/res_xlolzx.jpg", "https://res.cloudinary.com/mobinet/image/upload/v1692169596/spacefi/res2_rgaigm.jpg", "https://res.cloudinary.com/mobinet/image/upload/v1692169595/spacefi/res4_twyxpp.jpg", "https://res.cloudinary.com/mobinet/image/upload/v1692169595/spacefi/res3_su2wam.jpg"]
