@@ -26,6 +26,8 @@ Tailwindcss --- A utility-first CSS framework used for styling
 
 
 
+Link to the web app : **https://recipe-app-38xi-30us0pyv9-olatubora-felix.vercel.app/**
+
 
 
 ![Screenshot (43)](https://github.com/olatubora-felix/recipe-app/assets/54618642/eb7307e6-b5e3-4635-bad4-b13b9da21601)
