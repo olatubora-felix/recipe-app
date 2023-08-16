@@ -33,16 +33,9 @@ export const fetchCurrency = async () => {
 
 // Fetch Restaurant base on latitude and logitude 
 export const fetchRestuarants = async (search: string) => {
-  const positionObj: positionObjProps = await getPosition();
+  const positionObj = await getPosition();
   const { data } = await axios.get(`https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${positionObj?.coords.latitude},${positionObj?.coords.longitude}&radius=1500&type=${search ?? "restaurants"}&key=${process.env.REACT_APP_GOOGLE_KEY}`);
   return data?.results
 }
 
 
-
-interface positionObjProps {
-  coords: {
-    latitude: number,
-    longitude: number
-  }
-}
