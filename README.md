@@ -11,6 +11,8 @@ FRIENDLY NOTE: Fred just started his UI/UX journey. He's not as good as he would
 Side note: Ore is a big fan of Animation, especially Lotties! She also likes Card styling, Grid styling, and the color Purple.
 
 **Technology Used**
+
+
 React and Typescript -- Frontend Library used for UI and Web app
 
 
