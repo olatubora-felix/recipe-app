@@ -7,8 +7,6 @@ import { Card } from "../../components/UI/Card"
 
 const Restaurants = () => {
   const { data: restaurants, isLoading, error } = useGetRestaurants()
-
-  console.log(process?.env)
   if (error) {
     return <p>Sorry Something went wrong</p>
   }
@@ -23,7 +21,7 @@ const Restaurants = () => {
         <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-4 py-4">
           {
             restaurants?.map((restaurant: restaurantPros) => (
-              <Card {...restaurant} />
+              <Card {...restaurant} key={restaurant.place_id} />
             ))
           }
         </div>
