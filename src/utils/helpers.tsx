@@ -20,10 +20,11 @@ export const currencyConvert = (amount: number, currency: string, code: string) 
   return
 }
 
-export const getPosition = () => {
-  return new Promise((resolve, reject) => {
+export const getPosition = (): Promise<GeolocationPosition> => {
+  return new Promise<GeolocationPosition>((resolve, reject) => {
     navigator.geolocation.getCurrentPosition(resolve, reject);
   });
-}
+};
+
 
 type keyProps = "getRecipeById" | "amount"
